@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark theme base colors */
+    --background: 213 39% 5%;        /* #0B0F14 */
+    --surface: 215 29% 11%;          /* #121822 */
+    --foreground: 220 14% 92%;       /* #E6E8EC */
+    --muted-foreground: 213 15% 66%; /* #9AA4B2 */
+    
+    /* Accent colors */
+    --primary: 215 100% 65%;         /* #4F8BFF - Blue */
+    --primary-foreground: 220 14% 92%;
+    --secondary: 189 94% 59%;        /* #22D3EE - Cyan */
+    --secondary-foreground: 213 39% 5%;
+    
+    /* UI colors */
+    --border: 215 20% 20%;
+    --input: 215 20% 20%;
+    --ring: 215 100% 65%;
+    
+    /* Status colors */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 220 14% 92%;
+    --success: 142 76% 36%;
+    --success-foreground: 220 14% 92%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 213 39% 5%;
+    
+    /* Component colors */
+    --card: 215 29% 11%;
+    --card-foreground: 220 14% 92%;
+    --popover: 215 29% 11%;
+    --popover-foreground: 220 14% 92%;
+    --muted: 215 20% 20%;
+    --accent: 215 100% 65%;
+    --accent-foreground: 220 14% 92%;
+    
+    /* NO RADIUS - Flat design */
+    --radius: 0;
+    
+    /* Transitions */
+    --transition-base: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    border-radius: 0 !important;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+  
+  h1 { @apply text-5xl leading-tight; }
+  h2 { @apply text-3xl leading-snug; }
+  h3 { @apply text-xl leading-normal; }
+  
+  /* Focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+  
+  /* Flat button reset */
+  button {
+    @apply transition-colors;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Scoped scrollbars for chat + channel lists */
+.cb-scroll {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--primary) / 0.35) transparent;
+  /* Prevent page scroll when container hits edges */
+  overscroll-behavior: contain;
+}
+
+/* Chrome, Edge, Safari */
+.cb-scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.cb-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.cb-scroll::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.35);
+}
+.cb-scroll::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}

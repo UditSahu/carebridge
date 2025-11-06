@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "title": "We All Have Mental Health",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=DxIDKZHW3-E",
+    "description": "Animated video exploring mental health for students with relatable scenarios about stress, anxiety, and seeking help.",
+    "tags": ["mental health", "anxiety", "awareness", "help-seeking"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 2,
+    "title": "College Student Mental Health 101",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=2XFzBRSsrWU",
+    "description": "Overview of common campus mental health concerns and how college students can access and use campus resources.",
+    "tags": ["college", "stress", "resources", "self-care"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 3,
+    "title": "Child Mental Health (ShinShin Tang)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=oQcJ8I8CdtI",
+    "description": "Animated explanation for young students about emotions, anxiety, and how feelings affect behavior.",
+    "tags": ["anxiety", "children", "emotions", "awareness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 4,
+    "title": "Talking Mental Health (Anna Freud NCCF)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=17MTRtQh61k",
+    "description": "Video for children introducing mental health, emotional awareness, and seeking help through relatable storytelling.",
+    "tags": ["awareness", "children", "help-seeking", "emotions"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 5,
+    "title": "Tom Has Separation Anxiety Disorder",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=0kqie0tDxtI",
+    "description": "For young students, this video addresses fears associated with separation, anxiety, and how to get support.",
+    "tags": ["anxiety", "children", "coping", "support"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 6,
+    "title": "Lucy’s Blue Day",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=umPpUuA5o_E",
+    "description": "Using color symbolism, Lucy explores changing moods and depression, teaching students about emotional fluctuations.",
+    "tags": ["depression", "children", "mood", "self-awareness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 7,
+    "title": "Inside Out (Trailer & Discussion)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=seMwpP0yeu4",
+    "description": "The film explains emotional complexity through animated characters, making mental health concepts easy for students.",
+    "tags": ["emotions", "mental health", "children", "awareness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 8,
+    "title": "Teen Health: Mental Health (Penn State PRO Wellness)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=yPyZpHTAWy0",
+    "description": "Educational video with statistics and practical tips for teens about mental health and self-care.",
+    "tags": ["self-care", "teens", "statistics", "awareness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 9,
+    "title": "Overcoming Anxiety — BBC",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=c7prfoiYZs8",
+    "description": "Animations recount two students’ experiences with anxiety, showing coping strategies and building empathy.",
+    "tags": ["anxiety", "students", "empathy", "coping"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 10,
+    "title": "Mental Health & School: Above the Noise Compilation",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=j4wqKsc8D3s",
+    "description": "Compilation of videos discussing mental health issues in school environments, covering peer stress and support systems.",
+    "tags": ["school", "peer support", "stress", "mental health"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 11,
+    "title": "Why Students Should Have Mental Health Days",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=1qq7lDL-bzY",
+    "description": "TEDx Talk on mental health days for students, stress reduction, and changing policies for well-being.",
+    "tags": ["stress", "rest", "well-being", "policy"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 12,
+    "title": "Annie's Story: A Student's Perspective",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=DFhr4pDfTLs",
+    "description": "Personal story of a university student discussing struggles and practical ways to support mental health.",
+    "tags": ["personal story", "university", "struggle", "support"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 13,
+    "title": "Mental Health and Wellness for Students",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=mtWtUpdWrc8",
+    "description": "Explains school-based mental health supports, highlighting programs and resources available to students.",
+    "tags": ["wellness", "school resources", "student support"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 14,
+    "title": "The Mighty (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/TheMightySite",
+    "description": "Channel with diverse mental health topics, especially for connecting students to peer communities for support.",
+    "tags": ["community", "support", "anxiety", "depression"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 15,
+    "title": "Julia Kristina Counseling (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/JuliaKristinaCounseling",
+    "description": "Licensed counselor discusses emotional well-being, building self-esteem, and managing academic stress.",
+    "tags": ["self-esteem", "stress", "productivity", "therapy"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 16,
+    "title": "Anxiety United (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/AnxietyUnited",
+    "description": "Creator Billy Cross shares lived experiences with anxiety and student-friendly strategies for daily coping.",
+    "tags": ["anxiety", "personal story", "coping", "vlog"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 17,
+    "title": "Kati Morton (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/KatiMorton",
+    "description": "Therapist Kati Morton offers evidence-based advice on stress, burnout, self-care, and group therapy basics.",
+    "tags": ["stress", "self-care", "therapy", "burnout"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 18,
+    "title": "Psych2Go (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/Psych2Go",
+    "description": "Animated videos explain depression, trauma, toxic relationships, and physical symptoms of stress for youth.",
+    "tags": ["depression", "youth", "trauma", "relationships"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 19,
+    "title": "Therapy in a Nutshell (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/TherapyinaNutshell",
+    "description": "Scientifically-based skills for overcoming anxiety, managing overthinking, and finding quality therapists.",
+    "tags": ["anxiety", "overthinking", "therapy", "skills"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 20,
+    "title": "SciShow Psych (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/SciShowPsych",
+    "description": "Explains brain science, mental health disorders, attention, and sleep with accessible animations.",
+    "tags": ["sleep", "ADHD", "science", "brain"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 21,
+    "title": "Yoga With Adriene (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/yogawithadriene",
+    "description": "Yoga routines focused on anxiety, stress relief, relaxation, and mental fitness for all levels.",
+    "tags": ["yoga", "stress", "relaxation", "fitness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 22,
+    "title": "Living Well With Schizophrenia (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/LivingWellwithSchizophrenia",
+    "description": "Student-friendly channel raising awareness and reducing stigma around schizophrenia and related disorders.",
+    "tags": ["schizophrenia", "awareness", "stigma", "mental health"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 23,
+    "title": "Bite Size Psych (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/BiteSizePsych",
+    "description": "Science-based 5-minute videos on happiness, motivation, relationships, and productivity.",
+    "tags": ["motivation", "happiness", "relationships", "productivity"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 24,
+    "title": "How to ADHD (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/HowtoADHD",
+    "description": "Animated explanations and coping strategies for students with ADHD struggles in academic settings.",
+    "tags": ["ADHD", "focus", "coping", "study tips"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 25,
+    "title": "Matthias J Barker (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/MatthiasJBarker",
+    "description": "Short-form videos on emotions, resilience, and handling student relationship issues.",
+    "tags": ["relationships", "resilience", "emotions", "motivation"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 26,
+    "title": "BBC Reel: Student Anxiety Relief",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=A0FOhQoiqNE",
+    "description": "Documentary short on student anxiety, academic achievement, and self-care routines.",
+    "tags": ["anxiety", "academic stress", "self-care"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 27,
+    "title": "Self-Care Student (Channel)",
+    "type": "video",
+    "url": "https://www.youtube.com/c/SelfCareStudent",
+    "description": "Motivational content and self-care tips for balancing study and personal wellness.",
+    "tags": ["self-care", "motivation", "balance", "wellness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 28,
+    "title": "Wellcast",
+    "type": "video",
+    "url": "https://www.youtube.com/c/watchwellcast",
+    "description": "Video series covering sleep hygiene, stress, and healthy habits using relatable student scenarios.",
+    "tags": ["sleep", "stress", "habits", "student life"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 29,
+    "title": "Bailey Parnell: Social Media and Mental Health",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=Czg_9C7gw0o",
+    "description": "TEDx talk on social media’s impact on stress, anxiety, and tips for healthy digital habits.",
+    "tags": ["social media", "anxiety", "stress", "digital habits"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 30,
+    "title": "Mindfulness for Students (Headspace)",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=SEfs5TJZ6Nk",
+    "description": "Guided mindfulness meditation for studying, focusing, and reducing anxiety.",
+    "tags": ["mindfulness", "focus", "meditation", "anxiety"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 31,
+    "title": "Student Minds Blog",
+    "type": "blog",
+    "url": "https://www.studentmindsblog.co.uk",
+    "description": "University students share mental health experiences, offering peer advice and growth stories.",
+    "tags": ["peer support", "university", "experience", "growth"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 32,
+    "title": "Calm Blog: Daily Mindfulness",
+    "type": "blog",
+    "url": "https://blog.calm.com",
+    "description": "Research-based articles on meditation, mindfulness, and reducing daily stress.",
+    "tags": ["mindfulness", "meditation", "stress"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 33,
+    "title": "Tiny Buddha",
+    "type": "blog",
+    "url": "https://tinybuddha.com/blog-posts",
+    "description": "Simple wisdom on mental wellness issues, including student motivation, relationships, and self-care tips.",
+    "tags": ["self-care", "motivation", "relationships"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 34,
+    "title": "Healthline Nutrition & Wellness Blog",
+    "type": "blog",
+    "url": "https://www.healthline.com/nutrition",
+    "description": "Tips for better eating, sleep, and small habit changes to boost student mental health.",
+    "tags": ["nutrition", "habits", "sleep", "wellness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 35,
+    "title": "ACE Insights Blog: Fitness and Mental Health",
+    "type": "blog",
+    "url": "https://www.acefitness.org/resources/expert-articles",
+    "description": "Exercise routines and self-care practices for combating academic stress and boosting mood.",
+    "tags": ["fitness", "exercise", "mood", "stress"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 36,
+    "title": "Well+Good",
+    "type": "blog",
+    "url": "https://www.wellandgood.com",
+    "description": "Wellness inspiration, practical self-care guides, and interviews with mental health experts.",
+    "tags": ["self-care", "wellness", "guides"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 37,
+    "title": "Oh She Glows",
+    "type": "blog",
+    "url": "https://ohsheglows.com",
+    "description": "Vegan lifestyle and nutritious recipes paired with actionable tips for reducing stress.",
+    "tags": ["nutrition", "stress", "lifestyle"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 38,
+    "title": "Nerd Fitness Blog",
+    "type": "blog",
+    "url": "https://www.nerdfitness.com/blog",
+    "description": "Blog with advice for building resilience, developing routines, and maintaining mental wellness.",
+    "tags": ["resilience", "routine", "wellness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 39,
+    "title": "MyFitnessPal Blog",
+    "type": "blog",
+    "url": "https://blog.myfitnesspal.com",
+    "description": "Student-focused advice on tracking habits, creating personalized wellness routines, and goal setting.",
+    "tags": ["habits", "tracking", "goals", "wellness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 40,
+    "title": "Art of Healthy Living",
+    "type": "blog",
+    "url": "https://artofhealthyliving.com",
+    "description": "Articles on managing academic and lifestyle stress through creative expression.",
+    "tags": ["stress", "creativity", "expression", "lifestyle"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 41,
+    "title": "Harvard Health Blog",
+    "type": "blog",
+    "url": "https://www.health.harvard.edu/blog",
+    "description": "Expert guidance for students on sleep, fatigue, and getting help for stress-related conditions.",
+    "tags": ["sleep", "fatigue", "stress"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 42,
+    "title": "DailyOM Inspirations",
+    "type": "blog",
+    "url": "https://www.dailyom.com/cgi-bin/display/printerfriendly.cgi?articleid=6328",
+    "description": "Bite-sized advice and daily encouragement for getting through academic and life challenges.",
+    "tags": ["motivation", "encouragement", "challenge"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 43,
+    "title": "Student Wellbeing Blog",
+    "type": "blog",
+    "url": "https://www.studentwellbeingblog.com",
+    "description": "Mental and physical wellness tips for students navigating academic pressures.",
+    "tags": ["wellness", "academic stress", "tips"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 44,
+    "title": "Shape Magazine: Mental Health Tips",
+    "type": "blog",
+    "url": "https://www.shape.com/lifestyle/mind-and-body",
+    "description": "Articles targeting student sleep, stress, and the mind-body connection.",
+    "tags": ["sleep", "stress", "mind-body"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 45,
+    "title": "Health Coach Institute Blog",
+    "type": "blog",
+    "url": "https://www.healthcoachinstitute.com/articles",
+    "description": "Articles on anxiety management, goal setting, and daily wellness routines for students.",
+    "tags": ["anxiety", "goals", "routines", "wellness"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 46,
+    "title": "De-stress From Within: Mastering Powerful Breathing",
+    "type": "blog",
+    "url": "https://www.hostinger.com/in/tutorials/wellness-blog-post-ideas",
+    "description": "Guide on breathing techniques and their role in dealing with daily student stress.",
+    "tags": ["stress", "breathing", "calm"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 47,
+    "title": "Breathe Easy: Exercises for Stress Relief",
+    "type": "blog",
+    "url": "https://www.hostinger.com/in/tutorials/wellness-blog-post-ideas",
+    "description": "Simple daily exercises for students seeking to calm nerves and manage anxiety.",
+    "tags": ["anxiety", "breathing", "exercises"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 48,
+    "title": "Student Life by Purdue Global",
+    "type": "blog",
+    "url": "https://www.purdueglobal.edu/blog/student-life/",
+    "description": "Student-focused time management tips and fostering a work-school-life balance.",
+    "tags": ["balance", "time management", "stress"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 49,
+    "title": "Nutrition Stripped",
+    "type": "blog",
+    "url": "https://nutritionstripped.com/category/wellness/",
+    "description": "Science-backed nutrition advice for boosting energy and supporting mental well-being.",
+    "tags": ["nutrition", "energy", "well-being"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 50,
+    "title": "Mental Health Activities for College Students",
+    "type": "blog",
+    "url": "https://www.stjohns.edu/news-media/johnnies-blog/10-mental-health-activities-college-students",
+    "description": "Unique activities for stress relief, mindfulness, and building supportive communities in college.",
+    "tags": ["college", "mindfulness", "activity", "community"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 51,
+    "title": "Mental Health Strengthening: WHO",
+    "type": "article",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+    "description": "Overview of mental health, prevention, and evidence-based strategies from the World Health Organization.",
+    "tags": ["mental health", "prevention", "strategy"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 52,
+    "title": "Student Mental Health Crisis: APA",
+    "type": "article",
+    "url": "https://www.apa.org/monitor/2022/10/mental-health-campus-care",
+    "description": "Expert analysis of current student mental health challenges and approaches campuses are adopting.",
+    "tags": ["campus", "mental health", "policies"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 53,
+    "title": "Mental Health and Academic Performance",
+    "type": "article",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0001691824002282",
+    "description": "Research study on how mental health directly impacts student academic outcomes.",
+    "tags": ["academic", "research", "performance"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 54,
+    "title": "Mental Health Problems and Treatment in College",
+    "type": "article",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4527955/",
+    "description": "Scholarly review of common college student mental health issues and treatment options.",
+    "tags": ["college", "treatment", "issues"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 55,
+    "title": "Mental Health Journal: Self-Care Among Students",
+    "type": "article",
+    "url": "https://www.mentalhealthjournal.org/all-articles",
+    "description": "Mixed-method research on the impact of self-care instruction in preventing student burnout.",
+    "tags": ["self-care", "burnout", "research"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 56,
+    "title": "Sleep and Mental Health in Students",
+    "type": "article",
+    "url": "https://www.health.harvard.edu/blog/sleep-and-mental-health-2019012915660",
+    "description": "Harvard Health Publishing explores the science connecting sleep habits to mental health and academic success.",
+    "tags": ["sleep", "science", "success"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 57,
+    "title": "Helping Students Build Resilience",
+    "type": "article",
+    "url": "https://www.apa.org/pi/about/newsletter/2011/06/resilience.aspx",
+    "description": "American Psychological Association resource providing practical strategies to help students recover from setbacks.",
+    "tags": ["resilience", "recovery", "setbacks"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 58,
+    "title": "How to Talk About Mental Health",
+    "type": "article",
+    "url": "https://www.mhanational.org/how-talk-about-mental-health",
+    "description": "Guidance from Mental Health America on effective communication about mental health and reducing stigma.",
+    "tags": ["communication", "stigma", "support"],
+    "difficulty_level": "beginner"
+  },
+  {
+    "id": 59,
+    "title": "Motivation and Performance in Students",
+    "type": "article",
+    "url": "https://positivepsychology.com/student-motivation-theories/",
+    "description": "Theories and practical advice to boost student motivation and performance.",
+    "tags": ["motivation", "performance", "theory"],
+    "difficulty_level": "intermediate"
+  },
+  {
+    "id": 60,
+    "title": "Technology and Student Mental Health",
+    "type": "article",
+    "url": "https://www.edutopia.org/article/how-technology-helps-student-mental-health",
+    "description": "Article exploring how tech tools are enabling better mental health awareness and support for students.",
+    "tags": ["technology", "awareness", "support"],
+    "difficulty_level": "intermediate"
+  }
+]
