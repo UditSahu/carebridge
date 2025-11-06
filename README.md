@@ -1,4 +1,4 @@
-# 🌉 CareBridge
+# CareBridge
 
 > **AI-powered mental health support platform with RAG chatbot, real-time community, and personalized resources**
 
@@ -8,22 +8,22 @@
 [![Gemini](https://img.shields.io/badge/Google-Gemini_2.0-4285f4?logo=google)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**[Features](#-features)** • **[Quick Start](#-quick-start)** • **[Tech Stack](#%EF%B8%8F-tech-stack)** • **[Deployment](#-deployment)** • **[Troubleshooting](#-troubleshooting)** • **[Contributing](#-contributing)**
+**[Features](#features)** | **[Quick Start](#quick-start)** | **[Tech Stack](#tech-stack)** | **[Deployment](#deployment)** | **[Troubleshooting](#troubleshooting)** | **[Contributing](#contributing)**
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🤖 **RAG Chatbot** | Google Gemini with mental health research PDFs |
-| 💬 **Community** | Anonymous real-time peer support channels |
-| 🎯 **Resources** | ML-powered personalized recommendations |
-| 👨‍⚕️ **Counseling** | Licensed therapist directory |
-| 🎙️ **Voice AI** | Emotional tone analysis therapy sessions |
-| 🚨 **Crisis Support** | Emergency hotlines and resources |
+| **RAG Chatbot** | Google Gemini with mental health research PDFs |
+| **Community** | Anonymous real-time peer support channels |
+| **Resources** | ML-powered personalized recommendations |
+| **Counseling** | Licensed therapist directory |
+| **Voice AI** | Emotional tone analysis therapy sessions |
+| **Crisis Support** | Emergency hotlines and resources |
 
-## 📸 Screenshots
+## Screenshots
 
 <table>
   <tr>
@@ -36,7 +36,7 @@
   </tr>
 </table>
 
-## 🚀 Quick Start
+## Quick Start
 
 **Requirements:** Node.js 16+ & npm
 
@@ -49,12 +49,12 @@ npm run dev           # http://localhost:8080
 ```
 
 <details>
-<summary><b>📋 Detailed Setup (click to expand)</b></summary>
+<summary><b>Detailed Setup (click to expand)</b></summary>
 
-### 1️⃣ Supabase Setup
+### Step 1: Supabase Setup
 
 1. Create project at [supabase.com](https://supabase.com)
-2. Get credentials: **Settings** → **API**
+2. Get credentials: **Settings** > **API**
 3. Run SQL: Copy `supabase/schema.sql` + `supabase/SETUP_COMMUNITY_DB.sql` to SQL Editor
 4. Add to `.env`:
 ```env
@@ -62,7 +62,7 @@ VITE_SUPABASE_URL=https://xxx.supabase.co
 VITE_SUPABASE_ANON_KEY=your-anon-key
 ```
 
-### 2️⃣ Google Gemini Setup
+### Step 2: Google Gemini Setup
 
 1. Get API key: [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Add to `.env`:
@@ -71,7 +71,7 @@ VITE_GOOGLE_API_KEY=your-key
 GOOGLE_API_KEY=your-key
 ```
 
-### 3️⃣ CLI Chatbot (Optional)
+### Step 3: CLI Chatbot (Optional)
 
 ```bash
 npm run ingest   # Ingest PDFs (first time)
@@ -81,7 +81,7 @@ npm run chatbot  # Start CLI chatbot
 </details>
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
 <tr>
@@ -116,7 +116,7 @@ npm run chatbot  # Start CLI chatbot
 </tr>
 </table>
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
@@ -143,10 +143,10 @@ netlify deploy --prod
 Add the same environment variables in Site Settings.
 </details>
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 <details>
-<summary><b>❌ "Failed to fetch" / Connection Errors</b></summary>
+<summary><b>"Failed to fetch" / Connection Errors</b></summary>
 
 - Verify Supabase URL & key in `.env`
 - Check Supabase project is active (not paused)
@@ -155,7 +155,7 @@ Add the same environment variables in Site Settings.
 </details>
 
 <details>
-<summary><b>🤖 Chatbot Not Responding</b></summary>
+<summary><b>Chatbot Not Responding</b></summary>
 
 - Verify `VITE_GOOGLE_API_KEY` in `.env`
 - Check key at [Google AI Studio](https://makersuite.google.com/app/apikey)
@@ -164,7 +164,7 @@ Add the same environment variables in Site Settings.
 </details>
 
 <details>
-<summary><b>💬 Community Messages Not Loading</b></summary>
+<summary><b>Community Messages Not Loading</b></summary>
 
 - Run `supabase/SETUP_COMMUNITY_DB.sql`
 - Check RLS policies allow anonymous reads
@@ -173,7 +173,7 @@ Add the same environment variables in Site Settings.
 </details>
 
 <details>
-<summary><b>📦 npm install Fails (Windows)</b></summary>
+<summary><b>npm install Fails (Windows)</b></summary>
 
 C++ build errors are from optional dependencies - **ignore them**.
 ```bash
@@ -184,39 +184,42 @@ No need for Visual Studio Build Tools.
 
 **Need help?** Open an [issue](https://github.com/YOUR_USERNAME/carebridge/issues) with error details + browser console logs.
 
-## 🔒 Security
+## Security
 
-✅ Row Level Security (RLS) | ✅ Anonymous auth | ✅ End-to-end encryption | ✅ HIPAA-ready
+- Row Level Security (RLS) enabled
+- Anonymous authentication supported
+- End-to-end encryption
+- HIPAA-ready architecture
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please open an issue or submit a PR.
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file
 
 ---
 
-## 🆘 Crisis Resources
+## Crisis Resources
 
-> ⚠️ **This is a support tool, not a replacement for professional care.**
+> **WARNING: This is a support tool, not a replacement for professional care.**
 
 **Emergency:**
-- 🚨 **911** (US) or local emergency
-- ☎️ **988** - Suicide & Crisis Lifeline
-- 💬 **741741** - Crisis Text Line (text HOME)
+- **911** (US) or local emergency services
+- **988** - Suicide & Crisis Lifeline
+- **741741** - Crisis Text Line (text HOME)
 
 ---
 
-## 🙏 Credits
+## Credits
 
-Built with React, Supabase, Google Gemini • UI by shadcn/ui • Mental health research from WHO
+Built with React, Supabase, Google Gemini | UI by shadcn/ui | Mental health research from WHO
 
 <div align="center">
 
-**[⭐ Star this repo](https://github.com/YOUR_USERNAME/carebridge)** • **[🐛 Report Bug](https://github.com/YOUR_USERNAME/carebridge/issues)** • **[💡 Request Feature](https://github.com/YOUR_USERNAME/carebridge/issues)**
+**[Star this repo](https://github.com/YOUR_USERNAME/carebridge)** | **[Report Bug](https://github.com/YOUR_USERNAME/carebridge/issues)** | **[Request Feature](https://github.com/YOUR_USERNAME/carebridge/issues)**
 
-Made with ❤️ for mental health support
+Made for mental health support
 
 </div>
